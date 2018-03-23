@@ -2,6 +2,7 @@
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
   background-color: $jumbotron-bg;
+  @include border-radius($border-radius-lg);
 
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
@@ -12,20 +13,4 @@
   padding-right: 0;
   padding-left: 0;
   @include border-radius(0);
-}
-
-.jumbotron-dark {
-  background-color: $jumbotron-bg-dark;
-  background-image: url("../../../images/header_black.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
-.jumbotron-light {
-  background-color: $jumbotron-bg-light;
-  background-image: url("../../../images/header_white.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
 }
