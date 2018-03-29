@@ -1,0 +1,30 @@
+.js-btn-cursor-spot {
+  position: relative;
+  overflow: hidden;
+}
+
+.js-spot {
+  position: absolute;
+  width: 150%;
+  padding-top: 150%;
+  filter: blur(10px);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 250ms;
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.js-btn-cursor-spot-light {
+  .js-spot {
+    background: rgba(#fff, .07);
+  }
+}
+
+.js-btn-cursor-spot-dark {
+  .js-spot {
+    background: rgba(#000, .07);
+  }
+}

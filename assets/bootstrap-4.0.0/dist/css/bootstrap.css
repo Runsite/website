@@ -9005,4 +9005,32 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   z-index: 2;
 }
+
+.js-btn-cursor-spot {
+  position: relative;
+  overflow: hidden;
+}
+
+.js-spot {
+  position: absolute;
+  width: 150%;
+  padding-top: 150%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 250ms;
+}
+
+.js-spot.active {
+  opacity: 1;
+}
+
+.js-btn-cursor-spot-light .js-spot {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.js-btn-cursor-spot-dark .js-spot {
+  background: rgba(0, 0, 0, 0.07);
+}
 /*# sourceMappingURL=bootstrap.css.map */

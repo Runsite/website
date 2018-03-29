@@ -5,7 +5,7 @@
 	<div class="bg-primary">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10">
+				<div class="col-md-12 col-lg-10">
 					<div class="on-blind">
 						<nav class="navbar navbar-expand-lg navbar-light bg-white pl-0">
 							<a class="navbar-brand text-uppercase text-primary" href="/"><b>Run</b>site</a>
@@ -36,7 +36,7 @@
 					</div>
 					<div class="blind bg-white to-left"></div>
 				</div>
-				<div class="col-md-2 pl-0">
+				<div class="col-lg-2 pl-0 hidden d-none d-lg-block">
 					<a href="#" class="btn btn-dark btn-lg btn-block btn-header"><i class="fa fa-edit"></i> Бриф</a>
 				</div>
 			</div>
