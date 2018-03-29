@@ -37,7 +37,7 @@
 					<div class="blind bg-white to-left"></div>
 				</div>
 				<div class="col-md-2 pl-0">
-					<a href="#" class="btn btn-dark btn-lg btn-block"><i class="fa fa-edit"></i> Бриф</a>
+					<a href="#" class="btn btn-dark btn-lg btn-block btn-header"><i class="fa fa-edit"></i> Бриф</a>
 				</div>
 			</div>
 		</div>

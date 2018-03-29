@@ -2496,6 +2496,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-image: none;
 }
 
+.btn.btn-header {
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  font-size: .8rem;
+  background: #212121;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
@@ -3968,8 +3977,8 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 2.0875rem;
-  padding-bottom: 2.0875rem;
+  padding-top: 1.9375rem;
+  padding-bottom: 1.9375rem;
   margin-right: 0;
   font-size: 1.15rem;
   line-height: inherit;
