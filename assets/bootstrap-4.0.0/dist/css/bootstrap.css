@@ -429,6 +429,17 @@ template {
   transform: translate(-50%, -50%);
 }
 
+.nav-clear ul {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-clear ul li {
+  display: inline;
+}
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -2574,10 +2585,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background: #212121;
   border-radius: 0;
   box-shadow: none;
-}
-
-.btn.btn-shadow {
-  box-shadow: 8px 17px 40px 2px rgba(0, 0, 0, 0.25);
 }
 
 a.btn.disabled,

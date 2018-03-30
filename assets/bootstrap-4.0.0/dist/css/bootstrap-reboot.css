@@ -398,4 +398,15 @@ template {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.nav-clear ul {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-clear ul li {
+  display: inline;
+}
 /*# sourceMappingURL=bootstrap-reboot.css.map */
