@@ -2,7 +2,7 @@
 
 @section('app')
 
-	<div class="bg-primary truncate">
+	<header class="bg-primary truncate">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-10">
@@ -42,9 +42,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</header>
 
-	@yield('content')
+	<main>
+		@yield('content')
+	</main>
 
 	<footer class="bg-dark text-white">
 		<div class="container pt-5 pb-6">
