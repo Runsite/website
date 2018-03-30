@@ -509,3 +509,47 @@ template {
     background: $white;
   }
 }
+
+.nav-footer {
+  menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    li.has-icons {
+      position: relative;
+      padding-left: 50px;
+    }
+
+    a {
+      display: block;
+      padding: 3px 0;
+      color: rgba($white, .7);
+      text-decoration: none;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.nav-footer-icon {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: $primary;
+  background: $white;
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+    transform: translate(-50%, -50%);
+  }
+}
+
