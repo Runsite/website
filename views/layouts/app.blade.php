@@ -9,11 +9,11 @@
 					<div class="on-blind">
 						<nav class="navbar navbar-expand-lg navbar-light bg-white pl-0">
 							<a class="navbar-brand text-uppercase text-primary" href="/"><b>Run</b>site</a>
-							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Перемкнути навігацію">
 								<span class="navbar-toggler-icon"></span>
 							</button>
 
-							<div class="collapse navbar-collapse" id="mainNav">
+							<div class="collapse navbar-collapse" id="mainNav" aria-label="Навігація по сайту">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item">
 										<a class="nav-link" href="#">Що ми робимо</a>
