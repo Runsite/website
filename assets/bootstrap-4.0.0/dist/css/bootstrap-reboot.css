@@ -39,6 +39,10 @@ body {
   background-color: #f8f8f8;
 }
 
+footer {
+  font-size: .8rem;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -326,5 +330,30 @@ template {
 
 [hidden] {
   display: none !important;
+}
+
+.footer-h {
+  position: relative;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.footer-h span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding-right: 25px;
+  background: #212121;
+}
+
+.footer-h::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: 1px;
+  content: "";
+  background: #fff;
 }
 /*# sourceMappingURL=bootstrap-reboot.css.map */
