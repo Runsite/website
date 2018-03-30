@@ -7,24 +7,32 @@
   position: absolute;
   width: 150%;
   padding-top: 150%;
-  filter: blur(10px);
-  border-radius: 50%;
+  // filter: blur(10px);
+  // border-radius: 50%;
   opacity: 0;
-  transition: opacity 250ms;
+  transition: opacity .2s ease;
+  // transition: opacity 250ms;
 
   &.active {
     opacity: 1;
   }
 }
 
+
 .js-btn-cursor-spot-light {
   .js-spot {
-    background: rgba(#fff, .07);
+    background: radial-gradient(circle closest-side, rgba(#fff, .1), transparent);
+  }
+}
+
+.js-btn-cursor-spot-lighter {
+  .js-spot {
+    background: radial-gradient(circle closest-side, rgba(#fff, .2), transparent);
   }
 }
 
 .js-btn-cursor-spot-dark {
   .js-spot {
-    background: rgba(#000, .07);
+    background: radial-gradient(circle closest-side, rgba(#000, .1), transparent);
   }
 }
