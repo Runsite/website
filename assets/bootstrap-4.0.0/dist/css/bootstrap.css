@@ -2576,6 +2576,10 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   box-shadow: none;
 }
 
+.btn.btn-shadow {
+  box-shadow: 8px 17px 40px 2px rgba(0, 0, 0, 0.25);
+}
+
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
