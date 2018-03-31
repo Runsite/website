@@ -37,4 +37,55 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="container">
+		<h1 class="h4 section-title text-uppercase">
+			<span class="number">01</span>
+			<span>Що ми робимо</span>
+		</h1>
+		<nav class="service-nav pt-5">
+			<ul class="row">
+				<li class="col-lg-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="far fa-address-card"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Сайт-візитка</span>
+						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+					</a>
+				</li>
+				<li class="col-lg-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="far fa-building"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Корпоративний сайт</span>
+						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+					</a>
+				</li>
+				<li class="col-lg-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="far fa-newspaper"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Сайт для ЗМІ</span>
+						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+					</a>
+				</li>
+				<li class="col-lg-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Сайт-візитка</span>
+						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
 @endsection
