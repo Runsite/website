@@ -4116,10 +4116,15 @@ tbody.collapse.show {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 90px;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+
+@media (min-width: 960px) {
+  .navbar-nav {
+    height: 90px;
+  }
 }
 
 .navbar-nav .nav-link {
