@@ -15,6 +15,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/icons/runsite-icons/style.css">
 </head>
 <body>
 	@yield('app')

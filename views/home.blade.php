@@ -45,44 +45,116 @@
 		</h1>
 		<nav class="service-nav pt-5">
 			<ul class="row">
-				<li class="col-lg-3">
+				<li class="col-md-6 col-lg-4 col-xl-3">
 					<a href="#" class="service-item">
 						<span class="service-item-icon">
-							<i class="far fa-address-card"></i>
+							<i class="icon-visit-card"></i>
 						</span>
 						<hr>
 						<span class="service-item-title">Сайт-візитка</span>
-						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+						<span class="service-item-description">Вартість розробки <br>від 15 000 грн</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
 					</a>
 				</li>
-				<li class="col-lg-3">
+				<li class="col-md-6 col-lg-4 col-xl-3">
 					<a href="#" class="service-item">
 						<span class="service-item-icon">
-							<i class="far fa-building"></i>
+							<i class="icon-corporate"></i>
 						</span>
 						<hr>
 						<span class="service-item-title">Корпоративний сайт</span>
-						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+						<span class="service-item-description">Вартість розробки <br>від 15 000 грн</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
 					</a>
 				</li>
-				<li class="col-lg-3">
+				<li class="col-md-6 col-lg-4 col-xl-3">
 					<a href="#" class="service-item">
 						<span class="service-item-icon">
-							<i class="far fa-newspaper"></i>
+							<i class="icon-zmi"></i>
 						</span>
 						<hr>
 						<span class="service-item-title">Сайт для ЗМІ</span>
-						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+						<span class="service-item-description">Вартість розробки <br>від 15 000 грн</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
 					</a>
 				</li>
-				<li class="col-lg-3">
+				<li class="col-md-6 col-lg-4 col-xl-3">
 					<a href="#" class="service-item">
 						<span class="service-item-icon">
-							<i class="fas fa-shopping-cart"></i>
+							<i class="icon-corporate"></i>
 						</span>
 						<hr>
-						<span class="service-item-title">Сайт-візитка</span>
-						<span clas="service-item-description">Вартість розробки від 15 000 грн</span>
+						<span class="service-item-title">Інтернет-магазин</span>
+						<span class="service-item-description">Вартість розробки <br>від 50 000 грн</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4 col-xl-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="icon-audit"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Технічний аудит та підтримка</span>
+						<span class="service-item-description">Вартість послуги договірна</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4 col-xl-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="icon-seo"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">SEO аудит та оптимізація</span>
+						<span class="service-item-description">Вартість послуги договірна</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4 col-xl-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="icon-content"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Наповнення контентом</span>
+						<span class="service-item-description">Вартість послуги договірна</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4 col-xl-3">
+					<a href="#" class="service-item">
+						<span class="service-item-icon">
+							<i class="icon-pz"></i>
+						</span>
+						<hr>
+						<span class="service-item-title">Розробка ПЗ</span>
+						<span class="service-item-description">Вартість послуги договірна</span>
+						<span class="service-item-button js-btn-cursor-spot js-btn-cursor-spot-lighter">
+							Детальніше
+							<i class="icon-arrow-right"></i>
+						</span>
 					</a>
 				</li>
 			</ul>
