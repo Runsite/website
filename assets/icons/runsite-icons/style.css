@@ -26,7 +26,6 @@
 
 .icon-arrow-right:before {
   content: "\e900";
-  color: #fff;
 }
 .icon-audit:before {
   content: "\e901";

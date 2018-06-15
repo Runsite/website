@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 	<link rel="stylesheet" href="/assets/bootstrap-4.0.0/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/assets/icons/runsite-icons/style.css">
 </head>
@@ -22,6 +24,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<script src="/assets/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
 	<script src="/assets/node_modules/pace-js/pace.min.js"></script>
 
@@ -50,6 +53,31 @@
 					'top': y,
 					'left': x
 				});
+			});
+
+			$('.js-portfolio-carousel').owlCarousel({
+				items: 4,
+				nav: true,
+				navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+				navElement: 'button',
+				navContainer: '.portfolio-carousel-nav',
+				dots: false,
+				lazyLoad: true,
+
+				responsive: {
+					0: {
+						items: 1,
+					},
+					768: {
+						items: 2,
+					},
+					992: {
+						items: 3,
+					},
+					1200: {
+						items: 4,
+					}
+				},
 			});
 		});
 	</script>

@@ -56,6 +56,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0; // 1
+  overflow-x: hidden;
   font-family: $font-family-base;
   font-size: $font-size-base;
   font-weight: $font-weight-base;
@@ -128,6 +129,17 @@ h1, h2, h3, h4, h5, h6 {
       color: $white;
       text-align: center;
       background: $primary;
+    }
+  }
+
+  &.section-title-bg-primary {
+    span {
+      color: #fff;
+      background: $primary;
+
+      &.number {
+        background: #212121;
+      }
     }
   }
 

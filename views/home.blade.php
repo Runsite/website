@@ -39,10 +39,10 @@
 	</section>
 
 	<section class="container">
-		<h1 class="h4 section-title text-uppercase">
+		<h2 class="h4 section-title text-uppercase">
 			<span class="number">01</span>
 			<span>Що ми робимо</span>
-		</h1>
+		</h2>
 		<nav class="service-nav pt-5">
 			<ul class="row">
 				<li class="col-md-6 col-lg-4 col-xl-3">
@@ -159,5 +159,45 @@
 				</li>
 			</ul>
 		</nav>
+	</section>
+
+	<section class="container pt-6">
+		<div class="row">
+			<div class="col-lg-10">
+				<div class="on-blind bg-primary pt-5 pb-5">
+					<div class="pb-2">
+						<h2 class="h4 section-title section-title-bg-primary text-uppercase">
+							<span class="number">02</span>
+							<span>Наші роботи</span>
+						</h2>
+					</div>
+					
+					<nav class="portfolio-carousel mb-4">
+						<ul class="owl-carousel js-portfolio-carousel">
+							@for($i=0; $i<30; $i++)
+								<li>
+									<a href="#">
+										<span class="portfolio-carousel-info">
+											<span class="portfolio-carousel-info-title">Порти України</span>
+											<span class="portfolio-carousel-info-description">Найбільша база мешканців території України, народжених між 1650-1920-ми роками</span>
+											<span class="portfolio-carousel-info-btn">Переглянути <i class="icon-arrow-right"></i></span>
+										</span>
+										<img data-src="https://loremflickr.com/360/400?{{ mt_rand() }}" class="portfolio-carousel-image owl-lazy" alt="">
+									</a>
+								</li>
+							@endfor
+							<li></li>
+						</ul>
+
+						<div class="portfolio-carousel-nav"></div>
+					</nav>
+
+					<a class="btn btn-light btn-lg pl-5 pr-5 js-btn-cursor-spot js-btn-cursor-spot-dark" href="#">
+						<small>Усі роботи <i class="icon-arrow-right"></i></small>
+					</a>
+				</div>
+				<div class="blind bg-primary to-left"></div>
+			</div>
+		</div>
 	</section>
 @endsection
