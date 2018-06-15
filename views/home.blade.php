@@ -200,4 +200,72 @@
 			</div>
 		</div>
 	</section>
+
+
+	<section class="container pt-7">
+		<h2 class="h4 section-title text-uppercase">
+			<span class="number">03</span>
+			<span>Особливості</span>
+		</h2>
+
+		<nav class="advantages pt-4">
+			<ul class="row">
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-trans"></i>
+						</span>
+						<span class="advantage-title">Мультимовні сайти</span>
+						<span class="advantage-description">Додаткові мовні версії сайту створюються натисканням однієї кнопки.</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-grid"></i>
+						</span>
+						<span class="advantage-title">Зручне адміністрування</span>
+						<span class="advantage-description">Адмін-панель дозволяє швидко і зручно розміщувати будь-який контент.</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-speed"></i>
+						</span>
+						<span class="advantage-title">Швидке завантаження сторінок</span>
+						<span class="advantage-description">Оптимізована структура та технологія AppCache суттєво пришвидшує завантаження.</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-mod"></i>
+						</span>
+						<span class="advantage-title">Легкість модифікації сайту</span>
+						<span class="advantage-description">Ви зможете без значних затрат змінювати функціонал, що здешевить процес апгрейду.</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-pwa"></i>
+						</span>
+						<span class="advantage-title">Прогресивні веб-додатки</span>
+						<span class="advantage-description">Виконуємо сайти в технології PWA, що дозволяє встановлювати сайт 
+						на мобільний пристрій, та користуватися ним як додатком телефону.</span>
+					</a>
+				</li>
+				<li class="col-md-6 col-lg-4">
+					<a href="#" class="advantage-item">
+						<span class="advantage-icon">
+							<i class="icon-garant"></i>
+						</span>
+						<span class="advantage-title">Гарантована якість</span>
+						<span class="advantage-description">Надаємо гарантію на 1 рік (за умови розміщення на нашому хостингу).</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
 @endsection
