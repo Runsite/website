@@ -268,4 +268,43 @@
 			</ul>
 		</nav>
 	</section>
+
+	<section class="bg-dark mt-6 mb-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10">
+					<div class="on-blind pt-5 pb-5">
+						<div class="pb-2">
+							<h2 class="h4 section-title text-uppercase">
+								<span class="number">04</span>
+								<span>Наші клієнти</span>
+							</h2>
+						</div>
+						
+						<nav class="clients-carousel mb-4">
+							<ul class="owl-carousel js-clients-carousel">
+								@for($i=0; $i<30; $i++)
+									<li>
+										<a href="#">
+											<span class="clients-carousel-info">
+												<span class="clients-carousel-info-title">Порти України</span>
+												<span class="clients-carousel-info-description">Український інститут національної пам’яті</span>
+											</span>
+											<span class="clients-carousel-logo">
+												<img data-src="https://loremflickr.com/{{ mt_rand(50,100) }}/{{ mt_rand(50,100) }}/logo?{{ mt_rand() }}" class="clients-carousel-image owl-lazy" alt="">
+											</span>
+										</a>
+									</li>
+								@endfor
+								<li></li>
+							</ul>
+
+							<div class="clients-carousel-nav"></div>
+						</nav>
+					</div>
+					<div class="blind body-bg to-left"></div>
+				</div>
+			</div>
+		</div>
+	</section>
 @endsection

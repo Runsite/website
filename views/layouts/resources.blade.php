@@ -79,6 +79,31 @@
 					}
 				},
 			});
+
+			$('.js-clients-carousel').owlCarousel({
+				items: 5,
+				nav: true,
+				navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
+				navElement: 'button',
+				navContainer: '.clients-carousel-nav',
+				dots: false,
+				lazyLoad: true,
+
+				responsive: {
+					0: {
+						items: 1,
+					},
+					768: {
+						items: 2,
+					},
+					992: {
+						items: 4,
+					},
+					1200: {
+						items: 5,
+					}
+				},
+			});
 		});
 	</script>
 

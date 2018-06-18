@@ -1,0 +1,124 @@
+.clients-carousel {
+  width: 100vw;
+
+  @media (max-width: 768px) {
+    width: auto;
+  }
+
+  .clients-carousel-nav {
+    position: absolute;
+    bottom: 55px;
+    left: calc(100% - 50px + 15px);
+    width: 100px;
+    font-size: 0;
+
+    @media (max-width: 768px) {
+      left: calc(100% - 100px + 15px);
+    }
+
+    button {
+      display: inline-block;
+      width: 50px;
+      font-size: 14px;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+
+      &:active,
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+
+  .owl-prev {
+    color: $dark;
+  }
+
+  .owl-next {
+    color: #fff;
+
+    @media (max-width: 768px) {
+      color: #fff;
+    }
+  }
+
+  .owl-stage-outer {
+    overflow: visible;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+    li {
+      display: block;
+      padding: 30px 0;
+      padding-right: 30px;
+    }
+
+    a {
+      position: relative;
+      display: block;
+      height: 400px;
+      overflow: hidden;
+      color: #fff;
+      background: #fff;
+      box-shadow: 2px 4px 20px 1px rgba($black, .4);
+
+      &:hover {
+        .clients-carousel-image {
+          transform: scale(1.05, 1.05);
+        }
+      }
+
+      .clients-carousel-logo {
+        position: absolute;
+        top: calc(50% - 55px);
+        left: 50%;
+        z-index: 1;
+        width: 50%;
+        height: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .clients-carousel-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+        &.owl-lazy {
+          transition: transform .2s, opacity .4s ease;
+        }
+      }
+
+      .clients-carousel-info {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        display: block;
+        width: 100%;
+        padding: 15px;
+        background: $dark;
+      }
+
+      .clients-carousel-info-title {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: .4px;
+      }
+
+      .clients-carousel-info-description {
+        display: block;
+        height: 50px;
+        padding-top: 10px;
+        font-size: 13px;
+        color: #d3d3d3;
+      }
+    }
+  }
+}
