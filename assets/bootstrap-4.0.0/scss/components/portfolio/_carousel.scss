@@ -68,6 +68,19 @@
       background: #fff;
       box-shadow: 2px 4px 20px 1px rgba($black, .4);
 
+      &::before {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        left: 0;
+        font-size: 13px;
+        font-weight: 700;
+        color: #757575;
+        text-align: center;
+        text-transform: uppercase;
+        content: "runsite";
+      }
+
       &:hover {
         .portfolio-carousel-image {
           transform: scale(1.05, 1.05);
