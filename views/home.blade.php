@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('header-btn')
+	<a href="/brief" class="btn btn-dark btn-lg btn-block btn-header js-btn-cursor-spot js-btn-cursor-spot-light" rel="prefetch"><i class="fa fa-edit"></i> Бриф</a>
+@endsection
+
 @section('content')
 	<section class="bg-primary truncate">
 		<div class="container">

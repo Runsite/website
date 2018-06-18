@@ -2,7 +2,7 @@
 
 @section('app')
 
-	<header class="bg-primary truncate">
+	<header class="truncate @yield('header-bg', 'bg-primary')">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-10">
@@ -38,7 +38,7 @@
 					<div class="blind bg-white to-right d-lg-none"></div>
 				</div>
 				<div class="col-lg-2 pl-0 hidden d-none d-lg-block">
-					<a href="#" class="btn btn-dark btn-lg btn-block btn-header js-btn-cursor-spot js-btn-cursor-spot-light" rel="prefetch"><i class="fa fa-edit"></i> Бриф</a>
+					@yield('header-btn')
 				</div>
 			</div>
 		</div>
