@@ -16,7 +16,7 @@
 							<div class="collapse navbar-collapse" id="mainNav" aria-label="Навігація по сайту">
 								<ul class="navbar-nav ml-auto">
 									<li class="nav-item">
-										<a class="nav-link" href="#" rel="prefetch">Що ми робимо</a>
+										<a class="nav-link" href="/services" rel="prefetch">Що ми робимо</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#" rel="prefetch">Портфоліо</a>
